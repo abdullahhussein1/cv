@@ -1,22 +1,3 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
@@ -63,15 +44,24 @@ export const RESUME_DATA = {
       start: "july",
       end: "september 2023",
       description:
-        "I recently completed a summer internship at Gateway, a leading company in the web development industry, where I worked with a team of talented developers and designers to deliver high-quality projects using ReactJs, TypeScript, Git and Github, teamworking, scrum and more.",
+        "I completed a summer internship at Gateway, a leading company in the web development industry, where I worked with a team of talented developers and designers to deliver high-quality projects using ReactJs, TypeScript, Git and Github, teamworking, scrum and more.",
     },
     {
-      company: "Self Tought",
+      company: "Self Tought Developer",
       badges: [],
-      title: "Start of the journey → Full Stack Developer",
+      title: "Starter → Full Stack Developer",
       start: "2021",
       description:
         "I began my journey by learning Java at university, where I created several projects to solidify my understanding of programming and object-oriented programming (OOP) concepts. After gaining a solid foundation in Java, I transitioned to learning JavaScript and ReactJs. Today, I am a full-stack developer.",
+    },
+    {
+      company: "Graphic Designer",
+      badges: ["freelance"],
+      title: "Starter → intermediate",
+      start: "2013",
+      end: "2020",
+      description:
+        "I embarked on my journey as a graphic designer using Photoshop. Over time, I progressed to an intermediate level in graphic design by incorporating Illustrator and other tools into my skill set.",
     },
   ],
   skills: [
@@ -97,10 +87,43 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Erbil Center",
+      techStack: [
+        "Frontend Developer",
+        "React",
+        "Tailwind",
+        "Git",
+        "Firebase",
+        "Figma",
+      ],
+      description:
+        "The official website for the Erbil Center for Reading and Memorizing the Holy Quran.(under construction)",
+    },
+    {
+      title: "Moon App (مانگ)",
+      techStack: [
+        "App Developer",
+        "Ui/Ux designer",
+        "Git",
+        "Flutter",
+        "Firebase",
+        "UI/UX",
+        "Figma",
+      ],
+      description:
+        "The first modern Kurdish trivia app for Islamic questions and answers is now available on the Google Play Store and will soon be available on the App Store.",
+      link: {
+        label: "مانگ",
+        href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
+      },
+    },
+
+    {
       title: "Soft Steps",
       techStack: [
         "React",
         "TypeScript",
+        "Git",
         "Vite",
         "Supabase",
         "UI/UX",
@@ -115,46 +138,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Moon App (مانگ)",
-      techStack: [
-        "App Developer",
-        "Ui/Ux designer",
-        "Flutter",
-        "Firebase",
-        "UI/UX",
-        "Figma",
-      ],
-      description:
-        "The first modern Kurdish trivia app for Islamic questions and answers is now available on the Google Play Store and will soon be available on the App Store.",
-      logo: MonitoLogo,
-      link: {
-        label: "مانگ",
-        href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
-      },
-    },
-    {
-      title: "Erbil Center",
-      techStack: [
-        "Frontend Developer",
-        "React",
-        "Tailwind",
-        "Firebase",
-        "Figma",
-      ],
-      description:
-        "The first modern Kurdish trivia app for Islamic questions and answers is now available on the Google Play Store and will soon be available on the App Store.",
-      logo: MonitoLogo,
-      link: {
-        label: "مانگ",
-        href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
-      },
-    },
-    {
       title: "Play Tic Tac Toe with Ai",
-      techStack: ["React", "Tailwind"],
+      techStack: ["React", "Tailwind", "Git", "Vite"],
       description:
         "The first modern Kurdish trivia app for Islamic questions and answers is now available on the Google Play Store and will soon be available on the App Store.",
-      logo: MonitoLogo,
       link: {
         label: "Ai Tic Tac Toe",
         href: "https://maestro-ai-tic-tac-toe-app.netlify.app/",
