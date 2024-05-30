@@ -6,8 +6,8 @@ export const RESUME_DATA = {
   location: "Ranya, As-Sulaymaniyyah, Iraq",
   locationLink: "https://www.google.com/maps/place/ranya",
   about:
-    "Software Developer committed to deep work, ensuring products are built with exceptional attention to detail.",
-  summary: `As a computer engineer, I create cutting-edge frontend solutions. My background in graphic design ensures visually appealing, functional interfaces.`,
+    "Software Engineer committed to deep work, ensuring products are built with exceptional attention to detail.",
+  summary: `As a Software Engineer, I create cutting-edge frontend solutions. My background in graphic design ensures visually appealing, functional interfaces.`,
   avatarUrl:
     "https://avatars.githubusercontent.com/u/78323851?u=303a81a028fb8c5c473d4a822c6fbff57b47af9c&v=4",
   contact: {
@@ -146,7 +146,8 @@ export const RESUME_DATA = {
     {
       title: "Play Tic Tac Toe with Solo/Duo",
       techStack: ["React", "Tailwind", "Git", "Vite"],
-      description: "A Tic Tac Toe game built with modern web technologies.",
+      description:
+        "A Tic Tac Toe game built with modern web technologies and Amazing Ui/Ux.",
       link: {
         label: "Solo-Duo Tic Tac Toe",
         href: "https://maestro-ai-tic-tac-toe-app.netlify.app/",
