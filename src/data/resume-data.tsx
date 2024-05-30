@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       title: "Starter → Full Stack Developer",
       start: "2021",
       description:
-        "Started my journey by learning Java at university, creating several projects to solidify my understanding of programming and OOP concepts. After gaining a solid foundation in Java, I transitioned to learning JavaScript and ReactJs. Today, I am a full-stack developer.",
+        "Began with Java at university, building projects to grasp programming and OOP. Transitioned to JavaScript and ReactJs, now a full-stack developer.",
     },
     {
       company: "Graphic Designer",
