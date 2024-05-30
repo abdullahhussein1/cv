@@ -1,4 +1,4 @@
-import { GitHubIcon, LinkedInIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, BehanceIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Abdullah Hussein",
@@ -6,11 +6,10 @@ export const RESUME_DATA = {
   location: "Ranya, As-Sulaymaniyyah, Iraq",
   locationLink: "https://www.google.com/maps/place/ranya",
   about:
-    "Software Developer focused on building products with extra attention to detail",
-  summary: `As a computer engineer, I create cutting-edge frontend solutions. My graphic design background ensures visually appealing, functional interfaces.
-    During a recent internship at Gateway, I worked with ReactJs, TypeScript, git and github, and more. I gained skills in responsive design, accessibility, and performance optimization. I'm eager to tackle new frontend development challenges.`,
-  avatarUrl: "https://avatars.githubusercontent.com/u/78323851?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "Software Developer committed to deep work, ensuring products are built with exceptional attention to detail.",
+  summary: `As a computer engineer, I create cutting-edge frontend solutions. My background in graphic design ensures visually appealing, functional interfaces.`,
+  avatarUrl:
+    "https://avatars.githubusercontent.com/u/78323851?u=303a81a028fb8c5c473d4a822c6fbff57b47af9c&v=4",
   contact: {
     email: "aduli.maestro11@gmail.com",
     tel: "+9647511883299",
@@ -25,11 +24,16 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/abdullah-hussein-%F0%9F%87%B5%F0%9F%87%B8-683106224",
         icon: LinkedInIcon,
       },
+      {
+        name: "Behance",
+        url: "https://www.behance.net/coolboy8",
+        icon: BehanceIcon,
+      },
     ],
   },
   education: [
     {
-      school: " Erbil Polytechnic University",
+      school: "Erbil Polytechnic University",
       degree: "Bachelor's Degree in Information Systems Engineering",
       start: "2020",
       end: "2024",
@@ -41,47 +45,50 @@ export const RESUME_DATA = {
       link: "https://the-gw.com/",
       badges: ["On-Site"],
       title: "Frontend Developer",
-      start: "july",
-      end: "september 2023",
+      start: "July",
+      end: "September 2023",
       description:
-        "I completed a summer internship at Gateway, a leading company in the web development industry, where I worked with a team of talented developers and designers to deliver high-quality projects using ReactJs, TypeScript, Git and Github, teamworking, scrum and more.",
+        "Completed a summer internship at Gateway, a leading web development company, collaborating with talented developers and designers to deliver high-quality projects using ReactJs, TypeScript, Git, GitHub, Scrum, and more.",
     },
     {
-      company: "Self Tought Developer",
+      company: "Self-Taught Developer",
       badges: [],
       title: "Starter → Full Stack Developer",
       start: "2021",
       description:
-        "I began my journey by learning Java at university, where I created several projects to solidify my understanding of programming and object-oriented programming (OOP) concepts. After gaining a solid foundation in Java, I transitioned to learning JavaScript and ReactJs. Today, I am a full-stack developer.",
+        "Started my journey by learning Java at university, creating several projects to solidify my understanding of programming and OOP concepts. After gaining a solid foundation in Java, I transitioned to learning JavaScript and ReactJs. Today, I am a full-stack developer.",
     },
     {
       company: "Graphic Designer",
-      badges: ["freelance"],
-      title: "Starter → intermediate",
+      badges: ["Freelance"],
+      title: "Starter → Intermediate",
       start: "2013",
       end: "2020",
       description:
-        "I embarked on my journey as a graphic designer using Photoshop. Over time, I progressed to an intermediate level in graphic design by incorporating Illustrator and other tools into my skill set.",
+        "Embarked on my journey as a graphic designer using Photoshop. Over time, progressed to an intermediate level by incorporating Illustrator and other tools into my skill set.",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
     "React",
+    "React Router",
+    "Redux/ Redux Kit",
+    "Git/GitHub",
+    "Tailwind",
+    "Sass",
+    "Shadcn",
+    "Figma",
     "Scrum",
     "Trello",
     "Vite",
-    "Git/Github",
-    "TeamWork",
+    "Teamwork",
     "Node.js",
     "Firebase",
     "Supabase",
     "PostgreSQL",
-    "Tailwind",
-    "Sass",
-    "Shadcn",
     "Java",
-    "Figma",
+    "Flutter",
     "Photoshop",
     "Illustrator",
   ],
@@ -97,13 +104,13 @@ export const RESUME_DATA = {
         "Figma",
       ],
       description:
-        "The official website for the Erbil Center for Reading and Memorizing the Holy Quran.(under construction)",
+        "The official website for the Erbil Center for Reading and Memorizing the Holy Quran. (under construction)",
     },
     {
       title: "Moon App (مانگ)",
       techStack: [
         "App Developer",
-        "Ui/Ux designer",
+        "UI/UX Designer",
         "Git",
         "Flutter",
         "Firebase",
@@ -111,13 +118,12 @@ export const RESUME_DATA = {
         "Figma",
       ],
       description:
-        "The first modern Kurdish trivia app for Islamic questions and answers is now available on the Google Play Store and will soon be available on the App Store.",
+        "The first modern Kurdish trivia app for Islamic questions and answers, available on Google Play Store and soon on the App Store.",
       link: {
         label: "مانگ",
         href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
       },
     },
-
     {
       title: "Soft Steps",
       techStack: [
@@ -127,24 +133,33 @@ export const RESUME_DATA = {
         "Vite",
         "Supabase",
         "UI/UX",
-        "Auth(Github/Google)",
-        "netlify",
+        "Auth (GitHub/Google)",
+        "Netlify",
       ],
       description:
-        "A complete Todo App Build with React, TypeScript, Supabase, Express, Shadcn, Authentication.",
+        "A complete Todo App built with React, TypeScript, Supabase, Express, Shadcn, and Authentication.",
       link: {
         label: "softsteps.netlify.app",
         href: "https://softsteps.netlify.app/",
       },
     },
     {
-      title: "Play Tic Tac Toe with Ai",
+      title: "Play Tic Tac Toe with Solo/Duo",
       techStack: ["React", "Tailwind", "Git", "Vite"],
-      description:
-        "The first modern Kurdish trivia app for Islamic questions and answers is now available on the Google Play Store and will soon be available on the App Store.",
+      description: "A Tic Tac Toe game built with modern web technologies.",
       link: {
-        label: "Ai Tic Tac Toe",
+        label: "Solo-Duo Tic Tac Toe",
         href: "https://maestro-ai-tic-tac-toe-app.netlify.app/",
+      },
+    },
+    {
+      title: "Student Management System",
+      techStack: ["Java", "Java Swing", "UI/UX"],
+      description:
+        "A system for collecting, classifying, and organizing student information to facilitate easier control and analysis of data.",
+      link: {
+        label: "Student Management System",
+        href: "https://github.com/abdullahhussein1/Student-Management-System",
       },
     },
   ],
