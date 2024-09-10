@@ -27,7 +27,10 @@ export function ProjectCard({ title, description, tags, link }: Props) {
                 target="_blank"
                 className="inline-flex items-center gap-1 hover:underline"
               >
-                {title} <LinkIcon size={11} className="ml-1 text-gray-600" />
+                {title}{" "}
+                <div className="ml-1 text-gray-600">
+                  <LinkIcon size={11} />
+                </div>
               </a>
             ) : (
               title
