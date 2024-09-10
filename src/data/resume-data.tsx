@@ -3,13 +3,12 @@ import { GitHubIcon, LinkedInIcon, BehanceIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Abdullah Hussein",
   initials: "AH",
-  location: "Ranya, As-Sulaymaniyyah, Iraq",
+  location: "Ranya, As-Sulaymaniyah, Iraq",
   locationLink: "https://www.google.com/maps/place/ranya",
   about:
     "Software Engineer committed to deep work, ensuring products are built with exceptional attention to detail.",
   summary: `As a Software Engineer, I create cutting-edge frontend solutions. My background in graphic design ensures visually appealing, functional interfaces.`,
-  avatarUrl:
-    "https://avatars.githubusercontent.com/u/78323851?u=303a81a028fb8c5c473d4a822c6fbff57b47af9c&v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/78323851?v=4",
   contact: {
     email: "aduli.maestro11@gmail.com",
     tel: "+9647511883299",
@@ -37,6 +36,23 @@ export const RESUME_DATA = {
       degree: "Bachelor's Degree in Information Systems Engineering",
       start: "2020",
       end: "2024",
+    },
+  ],
+  language: [
+    {
+      name: "Kurdish",
+      level: "Native",
+      code: "",
+    },
+    {
+      name: "English",
+      level: "Upper-intermediate",
+      code: "B2",
+    },
+    {
+      name: "Arabic",
+      level: "Intermediate",
+      code: "B1",
     },
   ],
   work: [
@@ -69,12 +85,15 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
     "React",
-    "React Router",
-    "Redux/ Redux Kit",
+    "ReactRouter",
+    "Redux/ReduxToolKit",
+    "TypeScript",
+    "JavaScript",
     "Git/GitHub",
+    "Firebase",
+    "Supabase",
+    "PostgreSQL",
     "Tailwind",
     "Sass",
     "Shadcn",
@@ -84,9 +103,6 @@ export const RESUME_DATA = {
     "Vite",
     "Teamwork",
     "Node.js",
-    "Firebase",
-    "Supabase",
-    "PostgreSQL",
     "Java",
     "Flutter",
     "Photoshop",
@@ -94,26 +110,54 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Erbil Center",
+      title: "Connect",
       techStack: [
-        "Frontend Developer",
+        "FullStack",
         "React",
-        "Tailwind",
-        "Git",
+        "Redux/Redux toolKit",
         "Firebase",
-        "Figma",
+        "Realtime",
+        "Git",
+        "Vite",
+        "UI/UX",
+        "Auth (Google)",
+      ],
+      link: {
+        label: "Connect App",
+        href: "https://chatapp-c8b0f.web.app/",
+      },
+      description:
+        "A real time chat app using modern tools, also with modern UI/UX",
+    },
+    {
+      title: "Soft Steps",
+      techStack: [
+        "FullStack",
+        "React",
+        "TypeScript",
+        "Supabase",
+        "Git",
+        "Vite",
+        "UI/UX",
+        "Auth (GitHub/Google)",
+        "Netlify",
       ],
       description:
-        "The official website for the Erbil Center for Reading and Memorizing the Holy Quran. (under construction)",
+        "A complete Todo App built with React, TypeScript, Supabase, Express, Shadcn, and Authentication.",
+      link: {
+        label: "softsteps.netlify.app",
+        href: "https://softsteps.netlify.app/",
+      },
     },
+
     {
       title: "Moon App (مانگ)",
       techStack: [
         "App Developer",
         "UI/UX Designer",
-        "Git",
         "Flutter",
         "Firebase",
+        "Git",
         "UI/UX",
         "Figma",
       ],
@@ -125,23 +169,17 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Soft Steps",
+      title: "Erbil Center",
       techStack: [
+        "Frontend Developer",
         "React",
-        "TypeScript",
+        "Firebase",
+        "Tailwind",
         "Git",
-        "Vite",
-        "Supabase",
-        "UI/UX",
-        "Auth (GitHub/Google)",
-        "Netlify",
+        "Figma",
       ],
       description:
-        "A complete Todo App built with React, TypeScript, Supabase, Express, Shadcn, and Authentication.",
-      link: {
-        label: "softsteps.netlify.app",
-        href: "https://softsteps.netlify.app/",
-      },
+        "The official website for the Erbil Center for Reading and Memorizing the Holy Quran. (under construction)",
     },
     {
       title: "Play Tic Tac Toe with Solo/Duo",
