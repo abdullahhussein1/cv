@@ -20,7 +20,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/abdullah-hussein-%F0%9F%87%B5%F0%9F%87%B8-683106224",
+        url: "https://www.linkedin.com/in/abdullahhussein01/",
         icon: LinkedInIcon,
       },
       {
@@ -100,6 +100,7 @@ export const RESUME_DATA = {
     "Figma",
     "Scrum",
     "Trello",
+    "FastTyping",
     "Vite",
     "Teamwork",
     "Node.js",
