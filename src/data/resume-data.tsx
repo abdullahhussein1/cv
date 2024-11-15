@@ -5,8 +5,7 @@ export const RESUME_DATA = {
   initials: "AH",
   location: "Ranya, As-Sulaymaniyah, Iraq",
   locationLink: "https://www.google.com/maps/place/ranya",
-  about:
-    "Software Engineer committed to deep work, ensuring products are built with exceptional attention to detail.",
+  about: "Software Engineer • FullStack Developer",
   summary: `As a Software Engineer, I create cutting-edge frontend solutions. My background in graphic design ensures visually appealing, functional interfaces.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/78323851?v=4",
   contact: {
@@ -85,6 +84,7 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "NextJs",
     "React",
     "ReactRouter",
     "Redux/ReduxToolKit",
@@ -111,11 +111,28 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Dev Store",
+      techStack: [
+        "NextJs",
+        "SSR",
+        "E-Commerce",
+        "FullStack",
+        "Supabase",
+        "Vercel",
+        "Mulit-Language",
+      ],
+      link: {
+        label: "Dev Store Website",
+        href: "https://devstorekrd.vercel.app",
+      },
+      description: "Power Your Coding Journey",
+    },
+    {
       title: "Connect",
       techStack: [
         "FullStack",
         "React",
-        "Redux/Redux toolKit",
+        "ReduxtoolKit",
         "Firebase",
         "Realtime",
         "Git",
@@ -143,8 +160,7 @@ export const RESUME_DATA = {
         "Auth (GitHub/Google)",
         "Netlify",
       ],
-      description:
-        "A complete Todo App built with React, TypeScript, Supabase, Express, Shadcn, and Authentication.",
+      description: "A complete Task Manager App",
       link: {
         label: "softsteps.netlify.app",
         href: "https://softsteps.netlify.app/",
@@ -162,11 +178,10 @@ export const RESUME_DATA = {
         "UI/UX",
         "Figma",
       ],
-      description:
-        "The first modern Kurdish trivia app for Islamic questions and answers, available on Google Play Store and soon on the App Store.",
+      description: "The First Modern Islamic Kurdish Trivia App.(IOS, andriod)",
       link: {
         label: "مانگ",
-        href: "https://play.google.com/store/apps/details?id=com.moon_project.moon_project",
+        href: "https://onelink.to/eukhkv",
       },
     },
     {
@@ -179,8 +194,7 @@ export const RESUME_DATA = {
         "Git",
         "Figma",
       ],
-      description:
-        "The official website for the Erbil Center for Reading and Memorizing the Holy Quran. (under construction)",
+      description: "Erbil Center for Reading and Memorizing the Holy Quran.",
     },
     {
       title: "Play Tic Tac Toe with Solo/Duo",
@@ -196,7 +210,7 @@ export const RESUME_DATA = {
       title: "Student Management System",
       techStack: ["Java", "Java Swing", "UI/UX"],
       description:
-        "A system for collecting, classifying, and organizing student information to facilitate easier control and analysis of data.",
+        "A system for collecting, classifying, and organizing student information.",
       link: {
         label: "Student Management System",
         href: "https://github.com/abdullahhussein1/Student-Management-System",

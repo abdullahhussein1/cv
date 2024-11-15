@@ -21,7 +21,7 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <p className="max-w-md text-pretty pb-2 font-mono text-sm text-muted-foreground">
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -34,7 +34,7 @@ export default function Page() {
                 {RESUME_DATA.location}
               </a>
             </p>
-            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground ">
+            <div className="flex gap-x-1 pt-1 font-mono text-sm text-muted-foreground print:hidden ">
               {RESUME_DATA.contact.email ? (
                 <Button
                   className="size-8"
@@ -86,8 +86,7 @@ export default function Page() {
               ) : null}
             </div>
           </div>
-
-          <Avatar className="size-32 rounded-2xl">
+          <Avatar className="size-32 rounded-[30px]">
             <AvatarImage
               className="scale-110"
               alt={RESUME_DATA.name}
@@ -162,12 +161,15 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
+        <Section className="rounded-3xl bg-secondary p-6">
           <h2 className="text-xl font-bold">Languages</h2>
-          <div className="flex justify-between">
+          <div className="flex justify-between gap-4">
             {RESUME_DATA.language.map((language) => {
               return (
-                <Card key={language.name}>
+                <Card
+                  key={language.name}
+                  className="flex-1 rounded-2xl border p-2"
+                >
                   <CardHeader>
                     <h3 className="flex items-center gap-1 font-semibold leading-none">
                       {language.name}
@@ -200,7 +202,7 @@ export default function Page() {
             })}
           </div>
         </Section>
-        <Section className="scroll-mb-16">
+        <Section className="scroll-mb-16 rounded-3xl bg-secondary p-6">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
