@@ -195,7 +195,10 @@ export default function Page() {
           <div className="flex flex-wrap gap-2">
             {RESUME_DATA.skills.map((skill) => {
               return (
-                <Badge key={skill} variant="secondary">
+                <Badge
+                  key={skill}
+                  variant={skill == "NextJs" ? "default" : "secondary"}
+                >
                   {skill}
                 </Badge>
               );

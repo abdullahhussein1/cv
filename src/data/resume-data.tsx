@@ -125,7 +125,7 @@ export const RESUME_DATA = {
         label: "Dev Store Website",
         href: "https://devstorekrd.vercel.app",
       },
-      description: "Power Your Coding Journey",
+      description: "Power Your Coding Journey - E-Commerce",
     },
     {
       title: "Connect",

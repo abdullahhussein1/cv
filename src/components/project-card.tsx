@@ -49,7 +49,7 @@ export function ProjectCard({ title, description, tags, link }: Props) {
           {tags.map((tag) => (
             <Badge
               className="px-1 py-0 text-[10px]"
-              variant="secondary"
+              variant={tag == "NextJs" ? "default" : "secondary"}
               key={tag}
             >
               {tag}
